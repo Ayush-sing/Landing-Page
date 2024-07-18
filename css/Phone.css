@@ -1,0 +1,90 @@
+/* navbar section 
+*/
+#navbar{
+    flex-direction: column;
+}
+#navbar .item {
+  margin: 0.3rem;
+  margin-bottom: 0.7rem;
+}
+#navbar img {
+  width: 4.3rem;
+  height: 3.3rem;
+}
+#navbar .item {
+  margin: 0px;
+}
+#navbar .item a {
+  text-decoration: none;
+  color: white;
+  margin: 2px;
+  font-size: 1rem;
+  padding: 1px 10px;
+}
+
+/* Home section */
+
+#section-1 {
+    padding: 0px
+    
+  }
+  .primary {
+    font-size: 1.1rem;
+    padding: 1.3rem 13px;
+}
+.descr {
+    
+    padding: 2;
+  }
+
+  /* Services section */
+  #services {
+    height: 68.3rem;
+}
+.container .box {
+  
+  padding: 13px;
+  margin: 2px;
+  
+}
+#services .container {
+  flex-direction: column;
+}
+
+
+  /* Client section */
+
+  #client::before {
+    content: "";
+    background: url(../img/contact.jpg) no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 32rem;
+    z-index: -1;
+    opacity: 0.9;
+}
+  #client .item{
+    flex-wrap: wrap;
+    height: 27rem;
+  }
+
+  #client .item img {
+    height: 5rem;
+    margin: 2rem 2rem;
+}
+
+  /* ContactUs Section */
+
+  .form form{
+    width: 100%;
+  }
+  .form-text input {
+    font-size: 12px;
+    width: 10rem;
+}
+
+#submit{
+  margin-left: 5rem;
+    padding: 3px 6px;
+    border-radius: 9px;
+}
